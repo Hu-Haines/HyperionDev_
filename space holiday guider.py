@@ -1,4 +1,4 @@
-''' This program calculates the cost of a holiday with assisted guidence on choices '''
+''' This program calculates the cost of a holiday with assisted guidance on choices '''
 
 # User-introduction 
 print('''
@@ -175,7 +175,7 @@ while True:
 
 
 # Part two: costs 
-# Function for hotel cost then calculating hotel cost below the function
+# Function for hotel cost 
 def hotel_costs(duration,Hotel):
     # exchanging hotel to it's correlating cost per night
     if Hotel == 'a':
@@ -194,9 +194,9 @@ def hotel_costs(duration,Hotel):
         per_night = 10000
     hotel_cost = int(duration) * per_night
     return hotel_cost
-hotel_costs = hotel_costs(duration,Hotel)
 
-# Function for plane cost then calculating plane cost below the function
+
+# Function for plane cost 
 def plane_costs(destination):
     if destination == 1:
           plane_cost = 250000 * 2 # 2 is going there and returning back 
@@ -205,18 +205,26 @@ def plane_costs(destination):
     if destination == 3:
           plane_cost = 300000 * 2
     return plane_cost
-plane_costs = plane_costs(destination)
 
-# Function for space craft cost then calculating space craft cost below the function
+
+# Function for space craft cost
 def craft_rental(craft_duration):
     craft_cost = int(craft_duration) * 3000
     return craft_cost
-craft_cost = craft_rental(craft_duration)
 
-# Function for total holiday cost then calculating total holiday cost below the function
+
+# Function for total holiday cost
 def holiday_cost(hotel_cost,plane_cost,craft_cost):
     total_cost = hotel_cost + plane_cost + craft_cost
     return(total_cost)
+
+
+
+# Part Three: suming up costs and presenting it back to the user
+# Calculating the costs according to user's choices
+hotel_costs = hotel_costs(duration,Hotel)
+plane_costs = plane_costs(destination)
+craft_cost = craft_rental(craft_duration)
 total_cost = holiday_cost(hotel_costs,plane_costs,craft_cost)
 
 
