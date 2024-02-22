@@ -235,5 +235,4 @@ print(f'''
                 Since we won't know when will you be able to get another holiday again!
                 Staying at {hotel_name} you will have an amzaing time enjoying yourself <3
                 {craft_decision}
-                                        --Take care and see you next time
-''')
+                                        --Take care and see you next time''')
