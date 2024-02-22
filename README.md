@@ -1,4 +1,4 @@
-# Hello! Welcome to My HyperionDev_ Coding Journal 🚀
+# Hello! Welcome to My HyperionDev_ Coding Journal 🎇
 
 In this repository, there are a collection of various projects and tasks, big and small. Each one was a step forward in my learning process and improvement.
 
