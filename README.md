@@ -1,11 +1,16 @@
-# HyperionDev_
+# Hello! Welcome to My HyperionDev_ Coding Journal 🚀
 
-These are all my projects and tasks no matter how big or small. 
+In this repository, there are a collection of various projects and tasks, big and small. Each one was a step forward in my learning process and improvement.
 
-These are the ones which I believe contributed to improving.
+## What's Inside? 🧐
 
-It goes through projects and tasks that are Python basics, some of which are "fun" projects due to the theme of the variables.
+### Python Basics
+Since this is my 1st coding learning experience. There are mini-projects which contain the essentials of Python, from when I first learnt about them! 
 
-I will be continuing to add topics that I have recently learnt like (data visualisation and machine learning models).
+### Themed Coding Projects
+For some coding tasks, I have changed the theme to be more imaginative. However, this doesn't mean that the content is useless, as their core task still serves a practical purpose. 
 
-And I would also like to produce more larger projects, so stay tuned :)
+### Oncoming Endevours 🚧
+This is an ongoing project, so currently in Hyperiondev we have delved into data analysis, machine learning and NLP. Keep an eye out for any new commits during this time :) 
+
+Excited for this to be my 1st coding and learning experience🌟
