@@ -73,5 +73,5 @@ while True:
         break
     
 
-# the end message 
+# End message 
 print('Good Bye.') 
