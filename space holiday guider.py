@@ -117,32 +117,36 @@ elif destination == 2:
                 hotel_name = 'GOLD Infinite Resorts'
                 print('''
                         Feeling luxurious? The Gold Infinite resort gives you everything you ever need!
-                            5 star cheffs, infinity pools, gyms, dress-coded parities, personal cinema
-                                        social members includes more benefits ofc ;)\n''')
+                        5 star cheffs, infinity pools, gyms, dress-coded parities, personal cinema
+                                    social members includes more benefits ofc ;)\n''')
                 break
             elif Hotel == 'e':
                 hotel_name = 'your own cozy space craft'
-                print(''' Why not have an modern space scraft all to yourself!
-                                have your own space with you and your loved ones
-                                and enjoy the grand view of the nebula \n''')
+                print(''' 
+                        Why not have an modern space scraft all to yourself!
+                          have your own space with you and your loved ones
+                            and enjoy the grand view of the nebula \n''')
                 break
             else:
                     Hotel = input('I dont think you entered one of our options, remember to enter the letter correlated with your choice, try again:\n').lower().replace('[', '').replace(']','').strip()
 elif destination == 3:
-        Hotel = input(f'''\n Being on {destination_name} where would you like to stay?
+        Hotel = input(f'''
+                    Being on {destination_name} where would you like to stay?
                     [f] - the center orb: [£8,000 per night]
                     [g] - the outer ring: [£10,000 per night]\n
                     ''').lower().replace('[', '').replace(']','').strip()
         while True:
             if Hotel == 'f':
                     hotel_name = 'The Center Orb'
-                    print('''   Be right in the center of all the circulating rings
+                    print('''   
+                                Be right in the center of all the circulating rings
                                 Have all knowlege and data circle around you
                                 And have hyper access to the archive!\n''')
                     break
             elif Hotel == 'g':
                     hotel_name = 'The Outer Ring'
-                    print('''   At the most outer ring of The Archive machine, 
+                    print('''   
+                                At the most outer ring of The Archive machine, 
                                 you get to enjoy the slow spin circulating 
                                 with 360 grand view of the entire archive!\n ''')
                     break
