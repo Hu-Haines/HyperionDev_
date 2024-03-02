@@ -1,10 +1,7 @@
 '''  ***Practical Task 2: 
         building a movie recommendation system based on word vector similarity of descriptions  ***   '''
 
-# imports 
-import sys
-print(sys.executable)
-
+# imports
 import spacy
 import pandas as pd
 import numpy as np
